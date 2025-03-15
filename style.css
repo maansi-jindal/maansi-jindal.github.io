@@ -1,12 +1,57 @@
+body{
+    font-family: 'Franklin Gothic Light';
+}
+
 .home-page{
     background-color: rgb(218, 238, 245);
 }
-
-.home-page{
-    background color: rgb(218,238,245);
+.facts-page{
+    background-color:rgb(224, 198, 249);
+}
+.gallery-page{
+    background-color: rgb(169, 210, 169);
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.navbar a{
+    font-size: large;
+    text-decoration: none;
 }
 
-.home-context-div{
+.home-content-div{
     text-align: center;
-    font-family: 'Franklin Gothic Light';
+}
+.home-content-div p{
+    font-size: small;
+}
+
+.facts-content-div{
+    margin-left: 10%;
+}
+
+.facts-content-div li{
+    font-size:large;
+}
+
+.gallery-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-content button {
+    border-radius: 30%;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(170, 168, 168);
+    border-color: rgb(154, 152, 152);
+    border: none;
+    font-weight: bold;
+    font-size: x-large;
+    height: 1%;
 }
